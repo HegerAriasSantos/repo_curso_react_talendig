@@ -42,7 +42,7 @@ function Register(props) {
 					<Select
 						onChange={event => setSelectedCountryId(event.target.value)}
 						children={countries}
-						class='mt-2'
+						className='mt-2'
 						label='Países'>
 						{countries.map((value, index) => (
 							<MenuItem key={index} value={index}>
